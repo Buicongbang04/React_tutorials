@@ -1,0 +1,45 @@
+.welcome-message {
+  font-size: 2.5rem;
+  color: white;
+  background-color: hsl(120, 100%, 42%);
+  padding: 10px;
+  border-radius: 5px;
+  margin: 0;
+}
+
+.login-prompt{
+  font-size: 2.5rem;
+  color: white;
+  background-color: hsl(0, 100%, 42%);
+  padding: 10px;
+  border-radius: 5px;
+  margin: 0;
+}
+
+.list-category{
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: hsl(0, 0%, 20%);
+  margin-bottom: 10px;
+  text-align: center;
+  border: 3px, solid;
+  border-radius: 5px;
+  background-color: hsl(185, 100%, 50%);
+}
+
+
+.list-item li{
+  font-size: 2em;
+  list-style: none;
+  color: hsl(0, 0%, 25%);
+  text-align: center;
+  margin: 0;
+
+}
+
+.list-item li:hover{
+  color: hsl(0, 0%, 45%);
+  cursor: pointer;
+  
+}
+
