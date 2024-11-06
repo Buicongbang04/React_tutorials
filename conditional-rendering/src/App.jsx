@@ -1,5 +1,7 @@
 import UserGreeting from "./UserGreeting.jsx";
 import List from "./List.jsx";
+import Button from "./Button.jsx";
+import Profile from "./Profile.jsx";
 
 function App() {
   const fruits = [{id: 1, name: "apple", calories: 95}, 
@@ -17,10 +19,14 @@ function App() {
                       {id: 6, name: "elderberry", calories: 73}];
 
   return (
+    // <>
+    //   <UserGreeting isLoggedIn={false} username="BangBui"/>
+    //   {fruits.length > 0 && <List item={fruits} category="Fruits"/>}
+    //   {vegetables.length > 0 && <List item={vegetables} category="Vegetables"/>}
+    // </>
     <>
-      <UserGreeting isLoggedIn={false} username="BangBui"/>
-      {fruits.length > 0 && <List item={fruits} category="Fruits"/>}
-      {vegetables.length > 0 && <List item={vegetables} category="Vegetables"/>}
+      {/* <Button /> */}
+      <Profile />
     </>
   );
 }
